@@ -6,7 +6,7 @@
     %tr
       %th= link_to 'Movie Title', :id => 'title_header'
       %th Rating
-      %th= link_to 'Release Date', :id => 'release_date_header'
+      %th Release Date
       %th More Info
   %tbody
     - @movies.each do |movie|
